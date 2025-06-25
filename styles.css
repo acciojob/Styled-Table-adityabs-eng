@@ -1,1 +1,45 @@
 /* your code */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+table{
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	width:100%;
+	overflow:hidden;
+	border-collapse:collapse;
+}
+
+caption{
+	background-color:grey;
+	color:white;
+	font-weight:bold;
+	text-shadow:0px 0px 5px whitesmoke;
+	
+}
+th{
+	background-color:grey;
+	color:antiquewhite;
+	text-shadow:0px 0px 5px whitesmoke;
+	border-bottom:1px solid grey;
+	text-align:center;
+}
+
+td{
+	text-align:left;
+	font-weight:
+	
+}
+
+tr:nth-child(even){
+	background-color:grey;
+	opacity:0.8;
+}
+.table-wrapper {
+	border: 2px solid grey;
+	width:100%;
+	border-radius: 10px;
+	overflow: hidden;         /* Clips inner table corners */
+	display: inline-block; 
+	margin-top:30px;/* Shrinks to fit content */
+}
